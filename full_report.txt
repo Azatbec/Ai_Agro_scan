@@ -1,0 +1,75 @@
+=== AgroScan AI Model Evaluation Report ===
+                                                  precision    recall  f1-score   support
+
+                                Apple_Apple_scab       1.00      1.00      1.00       504
+                                 Apple_Black_rot       1.00      1.00      1.00       497
+                          Apple_Cedar_apple_rust       1.00      1.00      1.00       440
+                                 Apple_Scab_Leaf       0.25      0.05      0.09        19
+                                   Apple_healthy       1.00      1.00      1.00       502
+                                      Apple_leaf       0.67      0.44      0.53        18
+                                 Apple_rust_leaf       0.70      0.64      0.67        22
+                                Bell_pepper_leaf       0.75      0.33      0.46         9
+                           Bell_pepper_leaf_spot       0.62      0.29      0.40        17
+                               Blueberry_healthy       1.00      1.00      1.00       454
+                                  Blueberry_leaf       0.37      0.54      0.44        24
+          Cherry_(including_sour)_Powdery_mildew       1.00      1.00      1.00       421
+                 Cherry_(including_sour)_healthy       1.00      1.00      1.00       457
+                                     Cherry_leaf       0.67      0.17      0.27        12
+Corn_(maize)_Cercospora_leaf_spot_Gray_leaf_spot       0.90      0.81      0.85       411
+                       Corn_(maize)_Common_rust_       0.66      1.00      0.80       477
+               Corn_(maize)_Northern_Leaf_Blight       0.70      0.97      0.81       477
+                            Corn_(maize)_healthy       0.67      1.00      0.80       465
+                                     Corn_Blight       0.33      0.04      0.08       230
+                                Corn_Common_Rust       0.23      0.02      0.04       262
+                             Corn_Gray_Leaf_Spot       0.47      0.62      0.54       129
+                                    Corn_healthy       0.00      0.00      0.00       233
+                                Corn_leaf_blight       0.41      0.64      0.50        39
+                                  Corn_rust_leaf       0.38      0.33      0.36        24
+                                 Grape_Black_rot       1.00      1.00      1.00       472
+                      Grape_Esca_(Black_Measles)       1.00      1.00      1.00       480
+        Grape_Leaf_blight_(Isariopsis_Leaf_Spot)       1.00      1.00      1.00       431
+                                   Grape_healthy       1.00      0.99      0.99       423
+          Orange_Haunglongbing_(Citrus_greening)       1.00      1.00      1.00       503
+                            Peach_Bacterial_spot       1.00      1.00      1.00       460
+                                   Peach_healthy       1.00      1.00      1.00       432
+                                      Peach_leaf       0.57      0.87      0.69        23
+                     Pepper,_bell_Bacterial_spot       0.99      0.57      0.72       479
+                            Pepper,_bell_healthy       0.92      0.43      0.59       497
+                     Pepper__bell_Bacterial_spot       0.79      0.99      0.88       798
+                            Pepper__bell_healthy       0.80      0.98      0.89      1183
+                             Potato_Early_blight       1.00      1.00      1.00      1285
+                              Potato_Late_blight       1.00      1.00      1.00      1285
+                                  Potato_healthy       0.99      1.00      1.00       578
+                        Potato_leaf_early_blight       0.43      0.26      0.32        35
+                         Potato_leaf_late_blight       0.43      0.62      0.51        42
+                               Raspberry_healthy       0.99      1.00      0.99       446
+                                  Raspberry_leaf       0.55      0.71      0.62        24
+                      Rice_Bacterial_leaf_blight       0.67      1.00      0.80         8
+                                 Rice_Brown_spot       0.67      0.75      0.71         8
+                                  Rice_Leaf_smut       1.00      0.12      0.22         8
+                                   Soyabean_leaf       0.50      0.15      0.24        13
+                                 Soybean_healthy       1.00      1.00      1.00       506
+                           Squash_Powdery_mildew       1.00      1.00      1.00       434
+                      Squash_Powdery_mildew_leaf       1.00      0.88      0.94        26
+                          Strawberry_Leaf_scorch       1.00      1.00      1.00       444
+                              Strawberry_healthy       0.99      0.99      0.99       456
+                                 Strawberry_leaf       0.78      0.70      0.74        20
+                           Tomato_Bacterial_spot       0.99      0.99      0.99      2575
+                             Tomato_Early_blight       1.00      0.99      0.99      1498
+                              Tomato_Late_blight       1.00      0.99      1.00      2394
+                                Tomato_Leaf_Mold       0.99      0.99      0.99      1451
+                       Tomato_Septoria_leaf_spot       0.99      1.00      0.99      2239
+     Tomato_Spider_mites_Two_spotted_spider_mite       1.00      1.00      1.00      2112
+                              Tomato_Target_Spot       0.65      0.29      0.40       738
+            Tomato_Tomato_Yellow_Leaf_Curl_Virus       0.00      0.00      0.00      1562
+                      Tomato_Tomato_mosaic_virus       0.77      0.84      0.80       648
+                             Tomato__Target_Spot       0.66      0.90      0.76      1124
+           Tomato__Tomato_YellowLeaf__Curl_Virus       0.62      1.00      0.77      2614
+                     Tomato__Tomato_mosaic_virus       0.56      0.45      0.50       310
+                                  Tomato_healthy       0.99      1.00      1.00      2083
+                                      grape_leaf       0.68      0.87      0.76        15
+                            grape_leaf_black_rot       0.75      0.56      0.64        16
+
+                                        accuracy                           0.89     39321
+                                       macro avg       0.77      0.75      0.74     39321
+                                    weighted avg       0.86      0.89      0.87     39321

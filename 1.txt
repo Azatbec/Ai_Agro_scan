@@ -1,0 +1,89 @@
+(.venv) PS A:\AgroScan-AI\scripts> python train_engine.py
+⚠️ CPU mode (slow)
+Train: 14440 | Val: 4122
+A:\AgroScan-AI\scripts\train_engine.py:53: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.scaler = torch.cuda.amp.GradScaler(enabled=self.device.type == "cuda")
+
+Epoch 1/20
+train Epoch 1:   0%|                                                                                                                                    | 0/452 [00:00<?, ?batch/s]A:\AgroScan-AI\scripts\train_engine.py:128: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=self.device.type == "cuda"):
+train: Loss=0.8606 Acc=0.7619
+val: Loss=0.1645 Acc=0.9498
+
+Epoch 2/20
+train: Loss=0.2375 Acc=0.9280
+val: Loss=0.0734 Acc=0.9789
+
+Epoch 3/20
+train: Loss=0.1689 Acc=0.9483
+val: Loss=0.0641 Acc=0.9782
+
+Epoch 4/20
+train: Loss=0.1392 Acc=0.9582
+val: Loss=0.0495 Acc=0.9859
+
+Epoch 5/20
+train: Loss=0.1310 Acc=0.9584
+val: Loss=0.0455 Acc=0.9845
+
+Epoch 6/20
+train: Loss=0.1125 Acc=0.9647
+val: Loss=0.0245 Acc=0.9937
+
+Epoch 7/20
+train: Loss=0.0946 Acc=0.9717
+val: Loss=0.0454 Acc=0.9840
+
+Epoch 8/20
+train: Loss=0.0883 Acc=0.9721
+val: Loss=0.0214 Acc=0.9930
+
+Epoch 9/20
+train: Loss=0.0826 Acc=0.9733
+val: Loss=0.0216 Acc=0.9934
+
+Epoch 10/20
+train: Loss=0.0751 Acc=0.9756
+val: Loss=0.0245 Acc=0.9937
+
+Epoch 11/20
+train: Loss=0.0746 Acc=0.9763
+val: Loss=0.0290 Acc=0.9915
+
+Epoch 12/20
+train: Loss=0.0610 Acc=0.9821
+val: Loss=0.0259 Acc=0.9925
+
+Epoch 13/20
+train: Loss=0.0548 Acc=0.9814
+val: Loss=0.0205 Acc=0.9944
+
+Epoch 14/20
+train: Loss=0.0552 Acc=0.9826
+val: Loss=0.0224 Acc=0.9942
+
+Epoch 15/20
+train: Loss=0.0494 Acc=0.9846
+val: Loss=0.0149 Acc=0.9956
+
+Epoch 16/20
+train: Loss=0.0507 Acc=0.9841
+val: Loss=0.0158 Acc=0.9959
+
+Epoch 17/20
+train: Loss=0.0507 Acc=0.9852
+val: Loss=0.0198 Acc=0.9947
+
+Epoch 18/20
+train: Loss=0.0478 Acc=0.9841
+val: Loss=0.0188 Acc=0.9942
+
+Epoch 19/20
+train: Loss=0.0457 Acc=0.9857
+val: Loss=0.0171 Acc=0.9966
+
+Epoch 20/20
+train: Loss=0.0410 Acc=0.9876
+val: Loss=0.0214 Acc=0.9939
+
+🔥 Best Accuracy: 0.9966
